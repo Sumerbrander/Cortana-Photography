@@ -108,10 +108,20 @@ main {
     text-align: center;
 }
 
- #current{
-     background: #fff;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+#current{
     float: right;
     margin-top: 10px;
+}
+ 
 }
 footer{
     text-align: center;
