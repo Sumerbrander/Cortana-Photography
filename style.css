@@ -112,6 +112,12 @@ main {
     width: 80%;
     margin: auto;
     overflow: hidden;
+    background: #35424a;
+    color: #ffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+
 }
 ul{
     margin: 0;
@@ -120,12 +126,6 @@ ul{
 #current{
     float: right;
     margin-top: 10px;
-        background: #35424a;
-        color: #ffff;
-        padding-top: 30px;
-        min-height: 70px;
-        border-bottom: #e8491d 3px solid;
-    
 }
  
 }
