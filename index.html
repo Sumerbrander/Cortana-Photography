@@ -4,26 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Cortana Photography</title>
 </head>
 <body>
     <main>
-        <div class="container">
-        <nav id="current">
-            <ul>
-                <h2>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="/sea/index.html">Sea</a></li>
-                <li><a href="/trees/index for trees.html">Trees</a></li>
-                <li><a href="/Mountains/index.html">Mountains</a></li>
-                <li><a href="/flowers/flowers.html">Flowers</a></li>
-                <li><a href="/clouds/index.html">Clouds</a></li>
-                <li><a href="/animals/animals.html">Animals</a></li>
-                </h2>
-            </ul>
-        </nav>
-        </div>
+        <div>
+        <div id="mySidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="CloseNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="/sea/index.html">Sea</a>
+                <a href="/trees/index for trees.html">Trees</a>
+                <a href="/Mountains/index.html">Mountains</a>
+                <a href="/flowers/flowers.html">Flowers</a>
+                <a href="/clouds/index.html">Clouds</a>
+                <a href="/animals/animals.html">Animals</a>
+                </div>
+                
+                <div id="main">
+                    <button class="openbtn"
+                    onclick="openNav()">&#9776; Menu</button>
+                    
+                </div>
+            
+        
+            </div>
         <!-- Landing Area -->
      <div id="landing">
          <div id="landing-text">
